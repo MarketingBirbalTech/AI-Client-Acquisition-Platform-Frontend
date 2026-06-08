@@ -1,14 +1,16 @@
-# AI Client Acquisition Platform - Frontend
+# React + Vite
 
-This repository contains the user interface and administrative dashboard for the AI Client Acquisition Platform. Built using React/Next.js, it provides marketing agencies with a clean, centralized interface to orchestrate outreach campaigns, monitor lead pipelines, review metrics, and manage human-in-the-loop approvals.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Key Features:
-- **Campaign Management Panel:** Group, organize, filter, and track performance metrics across specific target niches and locations.
-- **Advanced CRM Pipeline Dashboard:** Visual tracking of prospects through deep lifecycle stages (Lead → Contacted → Replied → Qualified → Meeting Scheduled → Won/Lost).
-- **Human Approval Gate UI:** An administrative review interface allowing managers to preview, tweak, and batch-approve AI-drafted messages before they are dispatch.
-- **Real-Time Analytics View:** Visual tracking of delivery rates, open rates, AI response performance, and total booked meetings.
+Currently, two official plugins are available:
 
-### Tech Stack:
-- React.js / Next.js Framework 
-- Responsive CSS / Component Libraries (Tailwind CSS)
-- Axios (API integration with the Django REST Backend)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
