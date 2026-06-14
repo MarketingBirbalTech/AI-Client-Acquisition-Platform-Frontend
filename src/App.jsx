@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from './components/Layout/Layout'
+import AppRoutes from './routes/AppRoutes'
 
 const App = () => {
   return (
-    <div>App</div>
+    <Layout>
+      <AppRoutes />
+    </Layout>
   )
 }
 
